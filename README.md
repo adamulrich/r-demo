@@ -1,10 +1,12 @@
 # Overview
 
-{Provide a description of the software that you wrote to demonstrate the R language.}
+This project explores a life expectancy data set with R. 
 
-{Describe your purpose for writing this software.}
+I had previously build a python GUI to provide queries for this dataset, and wanted to see how I could do similar activites with R.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
+In this project, I load the data, clean it, sort and filter, generate new rows based on adjoining years of data, and I also join the data set with historical data.
+
+I present bar charts, pie charts, tables and data sets, and I do so using R markup.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
@@ -31,6 +33,5 @@
 
 {Make a list of things that you need to fix, improve, and add in the future.}
 
-- Item 1
-- Item 2
-- Item 3
+- Implement variables for changing values
+- Implement different query types
