@@ -119,3 +119,11 @@ install.packages("rmarkdown")
 remotes::install_github("ManuelHentschel/vscDebugger")
 
 install.packages("httpgd")
+
+life_expectancy_data <-read.csv("life-expectancy.csv")
+grouped_data <- life_expectancy_data %>% group_by(life_expectancy_data$Code)
+df <- grouped_data
+deltas = data.frame(df$Entity, df$Code, df$Year, df$Life.expectancy..years., delta = ave(df$Life.expectancy..years., df$Code, FUN = function(x) c(x[-1], NA) - x))
+view(deltas)
+ordered_deltas <- deltas %>% arrange(delta)
+view(ordered_deltas)
