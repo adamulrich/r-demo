@@ -5,6 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
+  <meta name="author" content="Adam Ulrich" />
   <meta name="date" content="2023-05-15" />
   <title>Life Expectancy Data Set Exploration with R</title>
   <style type="text/css">
@@ -523,26 +524,27 @@ list-style-type: none;
 <div class="slide titlepage">
   <h1 class="title">Life Expectancy Data Set Exploration with R</h1>
   <p class="author">
-
+Adam Ulrich
   </p>
   <p class="date">2023-05-15</p>
 </div>
-<div id="life-expectancy-data-set-exploration-with-r" class="slide section level2">
-<h1>Life Expectancy Data Set Exploration with R</h1>
-<p>This project was intended to help me explore what you can do with
+<div id="project-intent" class="slide section level2">
+<h1>Project Intent</h1>
+<p>This project was intended to help me explore possibilities with
 R.</p>
 </div>
 <div id="project-goals" class="slide section level2">
 <h1>Project Goals</h1>
 <ul>
-<li>Import Life Expectancy Data Set.</li>
-<li>Recreate one year delta queries based previous exploration</li>
-<li>join delta queries with historical information</li>
-<li>create charts and visuals for greater insights</li>
+<li>To Import Life Expectancy Data Set.</li>
+<li>To Recreate one year delta queries based previous exploration.</li>
+<li>To join delta queries with historical information.</li>
+<li>To create charts and visuals for greater insights.</li>
+<li>To create a presentation native to R.</li>
 </ul>
 </div>
-<div id="data-set" class="slide section level2">
-<h1>Data Set</h1>
+<div id="load-and-clean-data-set---recreate-delta-query" class="slide section level2">
+<h1>Load and Clean Data Set - Recreate Delta Query</h1>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load tidyverse</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div>
 <pre><code>## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──

@@ -2,24 +2,26 @@
 title: "Life Expectancy Data Set Exploration with R"
 output: slidy_presentation
 date: "2023-05-15"
+author: "Adam Ulrich"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Life Expectancy Data Set Exploration with R
+## Project Intent
 
-This project was intended to help me explore what you can do with R. 
+This project was intended to help me explore possibilities with R.
 
 ## Project Goals
 
-- Import Life Expectancy Data Set.
-- Recreate one year delta queries based previous exploration
-- join delta queries with historical information
-- create charts and visuals for greater insights
+- To Import Life Expectancy Data Set.
+- To Recreate one year delta queries based previous exploration.
+- To join delta queries with historical information.
+- To create charts and visuals for greater insights.
+- To create a presentation native to R.
 
-## Data Set
+## Load and Clean Data Set - Recreate Delta Query
 
 ```{r echo=TRUE, warning=FALSE, paged.print=TRUE}
 # load tidyverse
